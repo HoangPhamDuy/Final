@@ -1,0 +1,35 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.HelloWorld {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label {
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.inputValue {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.result {
+    font-size: 24px;
+}

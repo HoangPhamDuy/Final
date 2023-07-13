@@ -1,0 +1,61 @@
+.square.black {
+    background-color: black;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.square.white {
+    background-color: white;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.lable {
+    display: block;
+}
+.lable {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lable input[type='number'] {
+    padding-left: 5px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.lable label {
+    margin-right: 5px;
+}
+
+.lable input[type='color'] {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
