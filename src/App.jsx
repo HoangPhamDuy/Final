@@ -21,6 +21,8 @@ import Peach from './icon/peach';
 import Moon from './icon/moon';
 const { Title, Text } = Typography;
 const { Header, Sider, Content } = Layout;
+export const BASE_URL = import.meta.env.BASE_URL
+const path = `${BASE_URL}`;
 
 const App = () => {
   // select key
@@ -127,13 +129,13 @@ const App = () => {
                   <Image
                   style={{padding:'10px 10px'}}
                   height={48}
-                  src='/KITS.jpg'
+                  src={`${path}/KITS.jpg`}
                   preview={false}
                   /> 
                   : 
                   <Image
                       width={199} height={48}
-                      src='/logo.png'
+                      src={`${path}/logo.png`}
                       preview={false}
                   />
                 }
