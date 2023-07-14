@@ -33,3 +33,17 @@
 .result {
     font-size: 24px;
 }
+.btn-helloWorld{
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+
+

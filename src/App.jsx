@@ -5,7 +5,7 @@ import { MenuFoldOutlined, MenuUnfoldOutlined, UserOutlined, ClockCircleOutlined
 import { Space, Layout, Menu, Button,Image, Avatar} from 'antd';
 import { Typography } from 'antd';
 import { Footer } from 'antd/es/layout/layout';
-import { HashRouter as Router, Switch, Route, Link, useHistory } from 'react-router-dom';
+import { Switch, Route, Link, useHistory } from 'react-router-dom';
 import HelloWorld from './HelloWorld/App';
 import Chess from './ChessBoard/App';
 import Pomodoro from './Pomodoro/App';
@@ -133,7 +133,7 @@ const App = () => {
                   : 
                   <Image
                       width={199} height={48}
-                      src='http://hn.kicc.vn/images/logo.png'
+                      src='/logo.png'
                       preview={false}
                   />
                 }
