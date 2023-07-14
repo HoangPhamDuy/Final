@@ -9,7 +9,7 @@ function LanguageSwitcher({ lang, languages, onClick }) {
             <>
                 <Avatar
                     shape="circle"
-                    src={`${path}${lang}.png`}
+                    src={`${path}/${lang}.png`}
                 />
             </>
         );
@@ -31,7 +31,7 @@ function LanguageSwitcher({ lang, languages, onClick }) {
                         style={{
                             marginRight: 10,
                         }}
-                        src={`${path}${lang}.png`} />
+                        src={`${path}/${lang}.png`} />
                     <Text style={{
                         display: 'inline-block',
                         width: '2em',
