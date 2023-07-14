@@ -1,14 +1,15 @@
 import { Avatar, Dropdown, Typography } from 'antd';
 
 const { Text } = Typography;
-
+export const BASE_URL = import.meta.env.BASE_URL
+const path = `${BASE_URL}`;
 function LanguageSwitcher({ lang, languages, onClick }) {
     function getFlag(lang) {
         return (
             <>
                 <Avatar
                     shape="circle"
-                    src={`/${lang}.png`}
+                    src={`${path}${lang}.png`}
                 />
             </>
         );
@@ -30,7 +31,7 @@ function LanguageSwitcher({ lang, languages, onClick }) {
                         style={{
                             marginRight: 10,
                         }}
-                        src={`/${lang}.png`} />
+                        src={`${path}${lang}.png`} />
                     <Text style={{
                         display: 'inline-block',
                         width: '2em',

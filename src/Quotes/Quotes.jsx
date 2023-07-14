@@ -61,7 +61,7 @@ const Quotes = () => {
                         value={numCards}
                         onChange={handleInputChange}
                     />
-                    <button type="submit">Generate Quotes</button>
+                    <button className='btn-Quotes' type="submit">Generate Quotes</button>
                 </form>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 25%)' }}>

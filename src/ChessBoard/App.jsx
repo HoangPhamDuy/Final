@@ -27,7 +27,7 @@ const Chess = ()=>{
                     <input type='color' value={colorEven} onChange={(e) => setColorEven(e.target.value)} />
                     <label>Ô Chẵn</label>
                     <input type='color' value={colorOdd} onChange={(e) => setColorOdd(e.target.value)} />
-                    <button type='button' onClick={setFlipHandler}>Filp</button>
+                    <button className='btn-flip' type='button' onClick={setFlipHandler}>Filp</button>
                 </div>
                 
                 <ChessBoard size={size} colorEven={colorEven} colorOdd={colorOdd}/>
